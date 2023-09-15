@@ -49,7 +49,7 @@ def print_order(order):
 def display_menu():
     print("------- Menu -------")
     for selection in menu:
-        print(f"{selection}. {menu[selection]['name'] : <9} | {menu[selection]['price'] : >5}")
+        print(f"{selection}. {menu[selection]['name'] : <9} | {menu[selection]['price'] : >6}")
     print()
 
 
