@@ -8,7 +8,9 @@ menu = {
     4: {"name": 'soup', 
         "price": 4.50},
     5: {"name": 'sandwich',
-        "price": 4.99}
+        "price": 4.99},
+    6: {"name": 'weed',
+        "price": 4.20}
 }
 
 
@@ -56,7 +58,7 @@ def take_order():
     order = []
     count = 1
     for i in range(3):
-        item = input('Select menu item number ' + str(count) + ' (from 1 to 5): ')
+        item = input('Select menu item number ' + str(count) + ' (from 1 to 6): ')
         count += 1
         order.append(menu[int(item)])
     return order
